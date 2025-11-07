@@ -1,0 +1,38 @@
+{
+  "fever": {
+    "advice": "Mama says 💖: For fever, give fluids regularly, paracetamol (follow dosage), and rest. Monitor temperature every 4 hours. If fever goes above 39°C or lasts more than 3 days, please see a doctor, dear.",
+    "redFlags": ["High fever >39°C", "Lasts >3 days", "Difficulty breathing", "Severe headache"]
+  },
+  "cough": {
+    "advice": "Mama says 💖: For cough, try warm fluids, honey (if over 1 year old), and rest. Keep the air humid. If breathing becomes difficult or cough lasts more than 2 weeks, visit a clinic, dear.",
+    "redFlags": ["Difficulty breathing", "Coughing blood", "Chest pain", "Lasts >2 weeks"]
+  },
+  "stomach": {
+    "advice": "Mama says 💖: For stomach issues, drink ORS (oral rehydration solution), eat light foods, and rest. Avoid dairy temporarily. If pain is severe, there's blood in stool, or vomiting persists, see a doctor immediately, dear.",
+    "redFlags": ["Severe pain", "Blood in stool", "Persistent vomiting", "Dehydration signs"]
+  },
+  "headache": {
+    "advice": "Mama says 💖: For headache, rest in a quiet, dark room, drink water, and try paracetamol. If headache is severe, sudden, or comes with fever/stiff neck, please see a doctor right away, dear.",
+    "redFlags": ["Sudden severe headache", "With fever", "Stiff neck", "Vision changes"]
+  },
+  "malaria": {
+    "advice": "Mama says 💖: If you suspect malaria (fever, chills, sweating), please see a doctor for a blood test immediately. This needs proper medication. In the meantime, stay hydrated and rest, dear.",
+    "redFlags": ["High fever with chills", "Severe sweating", "Confusion", "Difficulty breathing"]
+  },
+  "diarrhea": {
+    "advice": "Mama says 💖: For diarrhea, drink plenty of ORS, eat bland foods (rice, bananas), and rest. Avoid dairy and fatty foods. If there's blood, severe dehydration, or it lasts more than 3 days, see a doctor, dear.",
+    "redFlags": ["Blood in stool", "Severe dehydration", "Lasts >3 days", "High fever"]
+  },
+  "cold": {
+    "advice": "Mama says 💖: For a cold, rest well, drink warm fluids, and use steam inhalation. Paracetamol can help with discomfort. If symptoms worsen or last more than 10 days, please visit a clinic, dear.",
+    "redFlags": ["High fever", "Difficulty breathing", "Severe sore throat", "Lasts >10 days"]
+  },
+  "rash": {
+    "advice": "Mama says 💖: For a rash, keep the area clean and dry, avoid scratching, and use calamine lotion if itchy. If rash spreads rapidly, comes with fever, or looks infected, see a doctor, dear.",
+    "redFlags": ["Rapid spreading", "With fever", "Painful", "Signs of infection"]
+  },
+  "default": {
+    "advice": "Mama says 💖: I understand you're not feeling well, dear. For general symptoms, rest, stay hydrated, and monitor your condition. If symptoms are severe, worsen, or you're concerned, please see a doctor. Your health is important.",
+    "redFlags": ["Severe symptoms", "Worsening condition", "Persistent pain", "High fever"]
+  }
+}

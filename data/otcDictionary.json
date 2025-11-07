@@ -1,0 +1,107 @@
+{
+  "regions": {
+    "west_africa": {
+      "common_name": "West Africa",
+      "countries": ["Nigeria", "Ghana", "Togo", "Benin", "Senegal", "Côte d'Ivoire", "Mali", "Burkina Faso"],
+      "otc": {
+        "fever": ["Paracetamol (Panadol)", "ORS (Oral Rehydration Salts)", "Ibuprofen"],
+        "cough": ["Guaifenesin syrup", "Honey + Lemon mix", "Benylin syrup"],
+        "pain": ["Paracetamol", "Ibuprofen (Brustan, Nurofen)", "Aspirin"],
+        "allergy": ["Chlorpheniramine", "Cetirizine", "Loratadine"],
+        "cold": ["Vitamin C (Redoxon)", "Paracetamol Cold Relief", "Action Cold & Flu"],
+        "stomach": ["ORS", "Antacid tablets", "Buscopan"],
+        "diarrhea": ["ORS", "Zinc tablets", "Loperamide"],
+        "headache": ["Paracetamol", "Ibuprofen", "Aspirin"],
+        "malaria_prevention": ["Insect repellent", "Mosquito nets", "Coils"]
+      }
+    },
+    "east_africa": {
+      "common_name": "East Africa",
+      "countries": ["Kenya", "Tanzania", "Uganda", "Rwanda", "Burundi", "Ethiopia", "Somalia"],
+      "otc": {
+        "fever": ["Paracetamol (Panadol)", "ORS", "Ibuprofen"],
+        "cough": ["Bronchicine", "Honey-Lemon", "Guaifenesin syrup", "Benadryl"],
+        "pain": ["Ibuprofen", "Diclofenac gel", "Paracetamol"],
+        "stomach": ["ORS", "Antacid tablets (ENO, Gestid)", "Buscopan"],
+        "diarrhea": ["ORS", "Zinc tablets", "Imodium"],
+        "cold": ["Vitamin C", "Paracetamol", "Actifed"],
+        "allergy": ["Cetirizine", "Loratadine", "Chlorpheniramine"],
+        "headache": ["Paracetamol", "Ibuprofen", "Hedex"],
+        "malaria_prevention": ["Mosquito nets", "Insect repellent", "Coils"]
+      }
+    },
+    "central_africa": {
+      "common_name": "Central Africa",
+      "countries": ["DR Congo", "Cameroon", "Congo-Brazzaville", "Gabon", "Central African Republic", "Chad"],
+      "otc": {
+        "fever": ["Paracetamol", "Doliprane", "Efferalgan"],
+        "cough": ["Sirop contre la toux", "Miel + Citron", "Bronchodermine"],
+        "pain": ["Paracetamol", "Ibuprofen", "Doliprane"],
+        "diarrhea": ["SRO (Sels de Réhydratation Orale)", "Comprimés de zinc"],
+        "stomach": ["SRO", "Antiacides", "Spasfon"],
+        "cold": ["Vitamine C", "Paracetamol", "Fervex"],
+        "allergy": ["Cétirizine", "Loratadine", "Polaramine"],
+        "headache": ["Paracetamol", "Doliprane", "Efferalgan"],
+        "malaria_prevention": ["Moustiquaires", "Répulsif anti-moustiques", "Spirales"]
+      }
+    },
+    "southern_africa": {
+      "common_name": "Southern Africa",
+      "countries": ["South Africa", "Zimbabwe", "Lesotho", "Botswana", "Namibia", "Zambia", "Mozambique", "Eswatini"],
+      "otc": {
+        "fever": ["Paracetamol (Panado)", "Ibuprofen", "Disprin"],
+        "cold": ["Corenza C", "Sinutab", "Flutex"],
+        "cough": ["Benylin", "Linctagon", "Honey + Lemon"],
+        "pain": ["Aspirin", "Ibuprofen (Nurofen)", "Paracetamol (Panado)"],
+        "allergy": ["Loratadine", "Cetirizine", "Allergex"],
+        "stomach": ["Rennie", "Gaviscon", "Buscopan"],
+        "diarrhea": ["Imodium", "Rehydrat", "Zinc tablets"],
+        "headache": ["Panado", "Disprin", "Ibuprofen"],
+        "malaria_prevention": ["Mosquito nets", "Peaceful Sleep", "Tabard"]
+      }
+    },
+    "north_africa": {
+      "common_name": "North Africa",
+      "countries": ["Egypt", "Morocco", "Algeria", "Tunisia", "Libya", "Sudan"],
+      "otc": {
+        "fever": ["Paracetamol (Doliprane)", "Ibuprofen (Brufen)", "Panadol"],
+        "cough": ["Acetylcysteine syrup", "Honey + Lemon", "Bronchicum"],
+        "cold": ["Vitamine C", "Paracetamol Cold", "Fervex"],
+        "pain": ["Ibuprofen", "Diclofenac", "Paracetamol"],
+        "stomach": ["Antiacides", "Gaviscon", "Maalox"],
+        "diarrhea": ["SRO", "Smecta", "Imodium"],
+        "allergy": ["Loratadine", "Cétirizine", "Aerius"],
+        "headache": ["Paracetamol", "Doliprane", "Ibuprofen"],
+        "malaria_prevention": ["Moustiquaires", "Répulsif", "Spirales"]
+      }
+    }
+  },
+  "safety_guidelines": {
+    "always_include": [
+      "If symptoms persist or worsen, please see a qualified clinician",
+      "For emergencies, call your doctor immediately",
+      "Follow package instructions for dosage"
+    ],
+    "never_recommend": [
+      "Antibiotics (prescription only)",
+      "Controlled substances",
+      "Injectable medications",
+      "Prescription-only drugs"
+    ],
+    "age_warnings": {
+      "infants_under_6_months": "Always consult a doctor for infants under 6 months",
+      "children_under_2": "Use only pediatric formulations and consult a pharmacist",
+      "elderly": "Check for drug interactions with existing medications"
+    }
+  },
+  "common_symptoms": {
+    "fever": ["fever", "temperature", "hot", "homa", "fièvre", "ìbà"],
+    "cough": ["cough", "coughing", "kikohozi", "toux", "ìkọ́"],
+    "pain": ["pain", "ache", "hurt", "maumivu", "douleur", "ìrora"],
+    "cold": ["cold", "flu", "runny nose", "mafua", "rhume", "òtútù"],
+    "stomach": ["stomach", "belly", "tummy", "tumbo", "ventre", "ikùn"],
+    "diarrhea": ["diarrhea", "loose stool", "kuharisha", "diarrhée", "ìgbónse"],
+    "headache": ["headache", "head pain", "kichwa", "mal de tête", "orí"],
+    "allergy": ["allergy", "allergic", "itching", "allergie", "àtọ̀sí"]
+  }
+}

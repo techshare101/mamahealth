@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Heart Shape with Glow -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Coral Heart Background -->
+  <path d="M100 180C100 180 30 140 30 90C30 60 50 40 70 40C85 40 95 50 100 60C105 50 115 40 130 40C150 40 170 60 170 90C170 140 100 180 100 180Z" 
+        fill="#FF6B6B" 
+        filter="url(#glow)"/>
+  
+  <!-- House-Mother Silhouette in Teal/Sage -->
+  <g transform="translate(100, 100)">
+    <!-- House roof outline -->
+    <path d="M-30,-20 L0,-40 L30,-20" 
+          stroke="white" 
+          stroke-width="6" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Mother and child silhouette forming house -->
+    <path d="M-25,-15 C-25,-15 -20,-10 -20,0 C-20,5 -22,10 -22,15 C-22,25 -15,35 0,35 C15,35 22,25 22,15 C22,10 20,5 20,0 C20,-10 25,-15 25,-15 L25,40 L-25,40 Z" 
+          fill="#5A9B8A" 
+          stroke="white" 
+          stroke-width="5"/>
+    
+    <!-- Child circle -->
+    <circle cx="0" cy="10" r="12" fill="#FDFBF6"/>
+    
+    <!-- Mother's head curve -->
+    <path d="M15,-15 C20,-20 25,-15 25,-10" 
+          stroke="white" 
+          stroke-width="5" 
+          fill="none" 
+          stroke-linecap="round"/>
+  </g>
+</svg>

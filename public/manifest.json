@@ -1,0 +1,23 @@
+{
+  "name": "MamaHealth - Smart care with a mother's heart",
+  "short_name": "MamaHealth",
+  "description": "AI-powered home-care guidance for African families",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDFBF6",
+  "theme_color": "#FF6B6B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "medical", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
