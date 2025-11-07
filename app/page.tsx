@@ -5,12 +5,14 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import { Heart, MessageCircle, Shield, Home, Instagram, Twitter, Youtube } from 'lucide-react'
 import Image from 'next/image'
 import MamaChatWidgetMobile from '@/components/MamaChatWidgetMobile'
+import { useChat } from '@/lib/chatTrigger'
 
 export default function LandingPage() {
   const [isMounted, setIsMounted] = useState(false)
   const [email, setEmail] = useState('')
   const { scrollYProgress } = useScroll()
   const opacity = useTransform(scrollYProgress, [0, 0.2], [1, 0])
+  const { setOpen } = useChat()
 
   useEffect(() => {
     setIsMounted(true)
@@ -198,9 +200,13 @@ export default function LandingPage() {
               className="flex flex-col sm:flex-row gap-4"
             >
               <motion.button
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: 'smooth' })
+                  setTimeout(() => setOpen(true), 400)
+                }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white text-[#4B3F72] font-semibold px-8 py-4 rounded-full shadow-2xl hover:shadow-3xl transition-all text-lg"
+                className="bg-white text-[#4B3F72] font-semibold px-8 py-4 rounded-full shadow-2xl hover:shadow-3xl transition-all text-lg cursor-pointer"
               >
                 Try MamaHealth Free 🌺
               </motion.button>

@@ -2,24 +2,24 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { MessageCircle, X, Send, Wifi, WifiOff, Mic } from 'lucide-react'
-import Image from 'next/image'
-import { detectLanguage, getWelcomeMessage, getOfflineMessage, saveLanguagePreference } from '@/lib/language'
+import { X, Send, Trash2, Mic, Volume2, VolumeX, Globe } from 'lucide-react'
+import { getLanguage, getWelcomeMessage, getOfflineMessage, saveLanguagePreference } from '@/lib/language'
 import LanguageSelector from './LanguageSelector'
+import { useChat } from '@/lib/chatTrigger'
 
 interface Message {
-  role: 'mama' | 'user'
+  role: 'user' | 'mama'
   text: string
   timestamp: number
 }
 
 export default function MamaChatWidgetMobile() {
-  const [open, setOpen] = useState(false)
-  const [message, setMessage] = useState('')
-  const [lang, setLang] = useState('en')
+  const { open, setOpen } = useChat()
   const [chat, setChat] = useState<Message[]>([])
+  const [message, setMessage] = useState('')
   const [loading, setLoading] = useState(false)
   const [online, setOnline] = useState(true)
+  const [lang, setLang] = useState('en')
   const [listening, setListening] = useState(false)
   const [voiceEnabled, setVoiceEnabled] = useState(true)
   const recognitionRef = useRef<any>(null)
