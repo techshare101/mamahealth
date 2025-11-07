@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { X, Send, Trash2, Mic, Volume2, VolumeX, Globe } from 'lucide-react'
+import { X, Send, Trash2, Mic, Volume2, VolumeX, Globe, MessageCircle, Wifi, WifiOff } from 'lucide-react'
+import Image from 'next/image'
 import { getLanguage, getWelcomeMessage, getOfflineMessage, saveLanguagePreference, detectLanguage } from '@/lib/language'
 import LanguageSelector from './LanguageSelector'
 import { useChat } from '@/lib/chatTrigger'
